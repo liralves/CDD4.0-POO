@@ -1,5 +1,5 @@
 from classes import *
-P1 = Person("", 20, 80)
+P1 = Person("", "", "")
 OP = 0
 P1.name = input("Digite o nome da pessoa: ")
 while OP != 7:
