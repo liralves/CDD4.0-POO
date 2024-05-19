@@ -43,14 +43,17 @@ class Person:
         if self.eating==False:
             print(f"{self.name} já não estava comendo.")
         else:
+            self.eating = False
             print(f"{self.name} parou de comer agora.")
     def stopTalk(self):
         if self.talking==False:
             print(f"{self.name} já estava calado.")
         else:
+            self.talking = False
             print(f"{self.name} se calou agora.")
     def stopSleep(self):
         if self.sleeping==False:
             print(f"{self.name} já estava acordado.")
         else:
+            self.sleeping = False
             print(f"{self.name} acordou agora.")
